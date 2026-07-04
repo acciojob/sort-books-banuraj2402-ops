@@ -4,7 +4,7 @@ export const SET_ORDER = "SET_ORDER";
 
 export const fetchBooks = () => {
   return (dispatch) => {
-    fetch("API_URL_HERE")
+    fetch("https://api.example.com/books")
       .then((response) => response.json())
       .then((data) => {
         dispatch(setBooks(data));
