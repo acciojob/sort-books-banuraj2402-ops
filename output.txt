@@ -1,0 +1,4 @@
+
+> react-boilerplate@1.0.0 test
+> jest --no-color 2>output.txt
+
